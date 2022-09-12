@@ -37,16 +37,16 @@ function Main(props) {
 
   return (
     <Grid.Column width={8}>
-      <h1>临时模块</h1>
+      <h1>凭证系统</h1>
       <Card centered>
         <Card.Content textAlign="center">
-          <Statistic label="当前值:" value={currentValue} />
+          <Statistic label="Current Value" value={currentValue} />
         </Card.Content>
       </Card>
       <Form>
         <Form.Field>
           <Input
-            label="设定新值"
+            label="New Value"
             state="newValue"
             type="number"
             onChange={(_, { value }) => setFormValue(value)}
