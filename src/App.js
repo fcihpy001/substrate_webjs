@@ -21,7 +21,7 @@ import Metadata from './Metadata'
 import NodeInfo from './NodeInfo'
 import TemplateModule from './TemplateModule'
 import PoeModule from './PoeModule'
-import KittiesModule from './kittiesModule'
+import Kitties from './Kitties'
 import Transfer from './Transfer'
 import Upgrade from './Upgrade'
 
@@ -90,7 +90,7 @@ function Main() {
             <PoeModule />
           </Grid.Row>
           <Grid.Row>
-            <KittiesModule />
+            <Kitties />
           </Grid.Row>
         </Grid>
       </Container>
